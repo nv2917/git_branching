@@ -9,5 +9,16 @@ public class Main {
             sum = sum+i;
         }
         System.out.println(sum);
+        int fac = 0;
+        int temp = 0;
+        for(int i=1;i<=5;i++) {
+            fac = i;
+            for (int j = i; j > 1; j--) {
+                temp = (j-1);
+                fac = fac * temp;
+            }
+            System.out.println(fac);
+        }
+
     }
 }
