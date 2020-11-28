@@ -9,6 +9,7 @@ public class Main {
             sum = sum+i;
         }
         System.out.println(sum);
+
         int fac = 0;
         int temp = 0;
         for(int i=1;i<=5;i++) {
@@ -20,5 +21,13 @@ public class Main {
             System.out.println(fac);
         }
 
+
+
+        for ( int n = 1 ; n < 6 ; n++){
+            double x = 1.4;
+            System.out.println(Math.pow(x,n));
+        }
+
+        System.out.println("Goodbye, Universe!");
     }
 }
